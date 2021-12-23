@@ -1,7 +1,11 @@
-function turnOff(l) {
-    l.innerText = "Log out";
-}
+var count=0;
+var countElement = document.querySelector("#count")
 
-function hide(add){
-    add.remove();
+console.log(countElement)
+
+function add1(){
+    count++
+    countElement.innerText = "like(s)"+count
+    console.log(countElement);
+
 }
